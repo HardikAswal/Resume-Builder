@@ -1,0 +1,48 @@
+body{
+    font-family: 'Lato',sans-serif;
+  background: #242526;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  .tab{
+    width: 70%;
+    margin: auto;
+  }
+
+  .tab h1{
+      font-family: 'Lato',sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 80px;
+      padding-bottom: 0;
+      font-size: 35px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+  }
+  .card{  
+    width: 70%;
+    margin-top: 80px;
+    border-radius: 0;
+    text-align: center;
+  }
+  .button{
+  background:  #ebd72d;
+  border: none;
+  border-radius: 0;
+  color: #242526;
+  width: 60px;
+  }
+
+  .button:hover{
+    background: #ffe400;
+    color:#242526;
+  }
+
+  .text{
+    color: #ebd72d;
+    font-family: 'Pacifico';
+    font-size: 22px;
+  }
