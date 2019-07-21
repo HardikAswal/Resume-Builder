@@ -50,9 +50,8 @@ function GetInfo(props){
 
     return (
       <div>
-        {/* <Link to="/Template"><button>Template</button></Link> */}
       <div className="infoWrapper">
-        <form>
+        
         <div className="info">
           <h2>Profile</h2>
           <div><input type="text" placeholder="First Name" onChange={(e)=>{firstname=e.target.value}}/></div>
@@ -133,7 +132,7 @@ function GetInfo(props){
       <button type="Submit" onClick={()=>{props.AddInfo({firstname,lastname,address,phone,city,state,email,
         position,description,org1,org2,job1,job2,loc1,loc2,start1,start2,job1desc,job2desc,edu1,edu2,edu3,adr1,
         adr2,adr3,deg1,deg2,deg3,dur1,dur2,dur3,pjt1,pjt2,pjtd1,pjtd2,int,skl1,skl2,skl3,skl4,skl1,skl1val})}}>BUILD!</button>
-      </form>
+      
       </div>
       
 

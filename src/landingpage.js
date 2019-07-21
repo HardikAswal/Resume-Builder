@@ -40,15 +40,15 @@ const menu = (
         <div className="carousel">
           <Carousel>
             <Carousel.Item>
-              <img className="d-block w-100" src={require('./first.jpg')} alt="First slide"/>
+              <img className="d-block w-90" src={require('./first.jpg')} alt="First slide"/>
             </Carousel.Item>
     
             <Carousel.Item>
-              <img className="d-block w-100" src={require('./second.jpg')} alt="Third slide"/>
+              <img className="d-block w-90" src={require('./second.jpg')} alt="Third slide"/>
             </Carousel.Item>
     
             <Carousel.Item>
-              <img className="d-block w-100" src={require('./third.jpg')} alt="Third slide"/>
+              <img className="d-block w-90" src={require('./third.jpg')} alt="Third slide"/>
             </Carousel.Item>
           </Carousel>
         </div> 
